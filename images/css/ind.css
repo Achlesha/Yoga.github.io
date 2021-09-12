@@ -1,0 +1,86 @@
+body{
+    font-family: Montserrat;
+}
+
+h1,h2{
+    font-family: Montserrat-black,Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    padding: 15% 15% 0 15%;
+}
+
+/* title */
+ 
+#title{
+    background-color: rgb(253, 194, 203);
+    color: #ff4c68;
+
+} 
+
+.title-img{
+    width: 45%;
+    padding: 5%;
+}
+
+.heading{
+    font-size: 3.5rem;
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* features */
+
+#features{
+    padding: 10% 5%;
+}
+
+/* carousal */
+
+.testimonial-text{
+    background-color: lightsalmon;
+    padding: 3% 3%;
+    border-radius: 25px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.pname{
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.para{
+    font-size: 1.5rem;
+    /* line-height: 0.5px; */
+}
+
+.testimonial-image-1{
+ text-align: center;
+ /* margin-left: 20%; */
+}
+
+.bl{
+    text-align: center;
+}
+
+@media (max-width:1045px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        text-align: center;
+    }
+}
+

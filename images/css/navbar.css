@@ -1,0 +1,80 @@
+/* Navigation bar */
+.nav-item:hover #navbarDropdownMenuLink{
+    display: block;
+   }
+   .navbar-brand{
+       font-family: Montserrat,Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       font-size: 4.5rem;
+       line-height: 20px;
+       font-weight: bold;
+       margin-left: 6%;
+   }
+   
+   .nav-item{
+       padding: 0 18px;
+       transition: 0.8s ease;
+   }
+   
+   .nav-item:hover{
+       background-color:lightpink ;
+       border-radius: 100%;
+   
+   }
+   .nav-link{
+       font-size: 1.2rem;
+       font-family:  Montserrat-light;
+   }
+   
+   
+   /* scroll btn */
+   #topbtn {
+       display: none; /* Hidden by default */
+       position: fixed; /* Fixed/sticky position */
+       bottom: 20px; /* Place the button at the bottom of the page */
+       right: 30px; /* Place the button 30px from the right */
+       z-index: 99; /* Make sure it does not overlap */
+       border: none; /* Remove borders */
+       outline: none; /* Remove outline */
+       background-color: lightpink; /* Set a background color */
+       color: white; /* Text color */
+       cursor: pointer; /* Add a mouse pointer on hover */
+       padding: 15px; /* Some padding */
+       border-radius: 100%; /* Rounded corners */
+       font-size: 18px; /* Increase font size */
+     }
+     
+     #topbtn:hover {
+       background-color: #ff4c68; /* Add a dark-grey background on hover */
+       transition: 1s;
+     }
+   
+     #topbtn{
+        font-size: 30px;
+     }
+   
+   @media(max-width:736px){
+       #topbtn{
+           font-size: 20px;
+           background-size: 10px;
+       }
+   }
+   /* footer */
+   
+   #footer{
+       background-color: rgb(247, 247, 247);
+       padding: 7% 15%;
+       font-size: 1.5rem;
+       text-align: center;
+   }
+   .social{
+       margin:1%;
+   }
+   
+   @media(max-width:992px){
+       .nav-item:hover{
+           border-radius: 0;
+           border-width: 20%;
+       }
+   }
+   
+   
